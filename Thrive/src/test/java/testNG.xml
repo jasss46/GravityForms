@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression" verbose="1" >
+    <listeners>
+        <listener class-name="ExtentReporter.Listeners"/>
+    </listeners>
+
+    <test name="TestSuite" >
+        <classes>
+
+<!--            <class name="TestCases.LambdaBlogFormTestCase"/>-->
+<!--            <class name="TestCases.BlogFormTestCase"/>-->
+<!--            <class name="TestCases.CityFormTestCase"/>-->
+<!--            <class name="TestCases.GMBGuideFormTestCase"/>-->
+<!--            <class name="TestCases.MainContactFormTestCase"/>-->
+<!--            <class name="TestCases.NewContactFormTestCase"/>-->
+<!--            <class name="TestCases.OldContactFormTestCase"/>-->
+<!--            <class name="TestCases.ProductPhotographyTestCase"/>-->
+            <class name="TestCases.ProposalPopUpFormTestCase"/>
+<!--            <class name="TestCases.ReferralFormTestCase"/>-->
+<!--            <class name="TestCases.ResultGalleryFormTestCase"/>-->
+<!--            <class name="TestCases.RFPTemplateFormTestCase"/>-->
+<!--            <class name="TestCases.SeoAuditReportFormTestCase"/>-->
+<!--            <class name="TestCases.StrategyFormTestCase"/>-->
+<!--            <class name="TestCases.ThriveForAgenciesFormTestCase"/>-->
+<!--            <class name="TestCases.ThriveLinks"/>-->
+<!--            <class name="TestCases.ThriveLocalFormTestCase"/>-->
+<!--            <class name="TestCases.ReviewsLandingPageTestCase"/>-->
+<!--            <class name="TestCases.HotelsLandingPageTestCase"/>-->
+<!--            <class name="TestCases.PDFGuideTestCase"/>-->
+<!--            <class name="TestCases.FBAdsLandingPageTestCase"/>-->
+            <class name="TestCases.AIStrategySessionTestCase"/>
+
+        </classes>
+    </test>
+</suite>
