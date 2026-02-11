@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 import java.time.Duration;
 
 public class BaseClass {
-
+//Test
     public static WebDriver driver;
     public static WebDriverWait wait;
     public static Actions actions;
